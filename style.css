@@ -48,7 +48,18 @@ li a {
 
 .containerEx1 {
     position: relative;
-  top: 200px;
+    top: 200px;
+}
+
+.blue,
+.red,
+.black,
+.green,
+.yellow {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 .blue {
@@ -65,7 +76,7 @@ li a {
 
 .black {
     width: 200px;
-    height:200px;
+    height: 200px;
     background-color: black;
 }
 
@@ -81,17 +92,7 @@ li a {
     background-color: yellow;
 }
 
-.blue,
-.red,
-.black,
-.green,
-.yellow {
-    left: 50%;
-    top: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
 
-}
 
 /* ***************** */
 .containerEx2 {
@@ -107,8 +108,8 @@ li a {
 .ex2C,
 .ex2D {
     background-color: black;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height:150px;
     position: absolute;
 }
 
@@ -137,28 +138,34 @@ li a {
 .containerEx3 {
     width: 900px;
     height: 400px;
-    background-color: rgba(169, 169, 169, 0.527); 
- position: relative;
+    background-color: rgba(169, 169, 169, 0.527);
+    position: relative;
 
 }
 
 .ex3A,
 .ex3B {
-    width:800px;
+    width: 800px;
     height: 150px;
     background-color: black;
     color: aliceblue;
     padding: 30px;
     translate: 40px 20px;
     margin: 20px;
+    text-transform: uppercase;
 }
+
 .ex3A {
     border-radius: 30px;
+     text-transform: uppercase;
 }
+
 .ex3B {
     overflow: auto;
-    border: 2px solid red;   
+    border: 2px solid red;
+     text-transform: lowercase;
 }
+
 /* ***************** */
 .containerEx4 {
     width: 800px;
@@ -167,27 +174,33 @@ li a {
     background-color: rgba(169, 169, 169, 0.527);
     position: relative;
 }
+
 .color {
     width: 80px;
-    height:  80px;
+    height: 80px;
     background-color: black;
 }
+
 .superior {
     width: 300px;
     height: 300px;
 }
+
 .cx {
     float: left;
     margin: 0 5px 5px 0;
 }
+
 .cxf {
     margin-right: 100px;
 }
+
 .inferior {
     position: absolute;
     right: 0;
     bottom: 0;
 }
+
 .cxh,
 .cxl {
     bottom: 21%;
